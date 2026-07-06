@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/SouravShrestha/cv-svg-tsx/compare/cv-svg-tsx-v1.1.0...cv-svg-tsx-v1.1.1) (2026-07-06)
+
+
+### Bug Fixes
+
+* included git info ([476c3b8](https://github.com/SouravShrestha/cv-svg-tsx/commit/476c3b8f00af5bb7950171d60380ed9310364dc5))
+
 ## [1.1.0](https://github.com/SouravShrestha/cv-svg-tsx/compare/cv-svg-tsx-v1.0.0...cv-svg-tsx-v1.1.0) (2026-07-06)
 
 
