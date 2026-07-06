@@ -27,6 +27,14 @@
     "converter",
     "cli"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SouravShrestha/cv-svg-tsx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SouravShrestha/cv-svg-tsx/issues"
+  },
+  "homepage": "https://github.com/SouravShrestha/cv-svg-tsx#readme",
   "author": "SouravShrestha",
   "license": "MIT",
   "dependencies": {
