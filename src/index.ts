@@ -10,7 +10,7 @@ declare const __VERSION__: string;
 const program = new Command();
 
 program
-  .name("svg2tsx")
+  .name("cv-svg-tsx")
   .description("Convert SVG files into ready-to-use TSX React components")
   .version(typeof __VERSION__ !== "undefined" ? __VERSION__ : "0.0.0-dev")
   .argument("<input...>", "SVG file(s) or folder path(s)")
