@@ -1,6 +1,6 @@
 {
   "name": "cv-svg-tsx",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CLI to turn SVGs into ready-to-use TSX React components",
   "type": "module",
   "bin": {
