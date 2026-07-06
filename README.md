@@ -1,23 +1,23 @@
-# svg2tsx
+# cv-svg-tsx
 
 CLI to convert SVG files into ready-to-use TSX React components with a tintable `color` prop, natural dimensions, and full TypeScript types.
 
 ## Install
 
 ```bash
-npm install -g svg2tsx
+npm install -g cv-svg-tsx
 ```
 
 Or run without installing:
 
 ```bash
-npx svg2tsx arrow.svg
+npx cv-svg-tsx arrow.svg
 ```
 
 ## Usage
 
 ```bash
-svg2tsx [options] <input...>
+cv-svg-tsx [options] <input...>
 ```
 
 **Arguments:**
@@ -44,34 +44,34 @@ svg2tsx [options] <input...>
 Convert a single SVG:
 
 ```bash
-svg2tsx arrow.svg
+cv-svg-tsx arrow.svg
 # → ArrowIcon.tsx
 ```
 
 Convert all SVGs in a folder:
 
 ```bash
-svg2tsx ./icons/ -o ./src/components/icons
+cv-svg-tsx ./icons/ -o ./src/components/icons
 # → ArrowLeftIcon.tsx, ChevronDownIcon.tsx, ...
 ```
 
 Multiple inputs to a specific output directory:
 
 ```bash
-svg2tsx arrow.svg chevron.svg -o ./src/components/icons
+cv-svg-tsx arrow.svg chevron.svg -o ./src/components/icons
 ```
 
 No suffix, custom default color:
 
 ```bash
-svg2tsx arrow.svg --suffix "" --default-color white
+cv-svg-tsx arrow.svg --suffix "" --default-color white
 # → Arrow.tsx with color defaulting to "white"
 ```
 
 Keep original colors instead of replacing them with `color`:
 
 ```bash
-svg2tsx logo.svg --keep-colors
+cv-svg-tsx logo.svg --keep-colors
 ```
 
 ## Output Format

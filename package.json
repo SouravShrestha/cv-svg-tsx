@@ -1,10 +1,10 @@
 {
-  "name": "svg2tsx",
+  "name": "cv-svg-tsx",
   "version": "1.0.0",
   "description": "CLI to turn SVGs into ready-to-use TSX React components",
   "type": "module",
   "bin": {
-    "svg2tsx": "./dist/index.js"
+    "cv-svg-tsx": "./dist/index.js"
   },
   "files": [
     "dist",
